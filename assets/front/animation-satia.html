@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selamat Datang</title>
+	<style>
+		.pembungkus {
+			width: 1000px;
+			height: 500px;
+			background-image: url(logo1.png);
+			border: 1px solid black;
+			margin: 50px auto;
+			position: relative;
+			text-align: center;
+		}
+		p {font-size: 20px;}
+		.bawah {font-size: 18px;}
+		.satu {width: 60px;
+			height: 60px;
+			background-color: red;
+			text-align: center;
+			line-height: 60px;
+			font-weight: bold;
+			font-size: 16px;
+			font-weight: bold;
+			position: absolute;
+			left: 400px;
+			bottom: 500;
+
+		}
+		.satu a{
+			
+			text-decoration: none;
+			color: white;
+		}
+		.dua {
+			width: 60px;
+			height: 60px;
+			background-color: red;
+			text-align: center;
+			line-height: 60px;
+			font-weight: bold;
+			font-size: 16px;
+			position: absolute;
+			right: 400px;
+			bottom: 500;
+			color: white;
+		}
+		.dua:hover {
+		animation: tidak 1s linear infinite;
+		}
+		@keyframes tidak {
+			0%  {transform: translateX(0px)} 
+			25% {transform: translateX(0px) translateY(300px)}
+			50% {transform: translateX(300px)}
+			75% {transform: translateX(300px) translateY(300px)}
+			100% {transform: translateX(0px) translateY(0px)}
+		} 
+	</style>
+</head>
+<body background="<?php echo base_url()?>/assets/front/images/logo25.png">
+<div class="pembungkus">
+	<p>Selamat Datang OP <b>Satia Adhi</b>, selamat pagi, semangat Pagi.!<br> Mohon Jawab pertanyaan di bawah ini dengan jujur dan Ikhlas</p>
+	<h1>Apakah Anda Puas dengan Gajih Anda saat ini? </h1>
+	<div class="satu"><a href="JawabanHRD.html">YA</a></div>
+	<div class="dua">TIDAK</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p class="bawah">"silahkan Klik untuk menjawab pertanayan"</p><br>
+</div>
+</body>
+</html>

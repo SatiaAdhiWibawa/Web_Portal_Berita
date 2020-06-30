@@ -1,0 +1,53 @@
+
+
+h4 {color: #a78cff;}
+
+.hero {color: #00ff11;}
+
+.cmarvel:hover {border-radius: 150px; }
+
+.profil {
+	width: auto;
+	margin:50px auto;
+	font-family: arial;
+	font-size: 6.5em;
+	font-weight: bold;
+	background: black;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 40px #00ff00;
+}
+
+
+.wrapper {
+	color: red;
+	width: 1300px;
+	margin: auto;
+	background-size: cover;
+}
+
+.zoom-effect {  
+	position: relative;
+	width: 100%;
+	height: 430px;
+	margin: 0 auto;
+	overflow: hidden;  
+}
+
+.kotak {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.kotak img {
+	-webkit-transition: 1s ease-in-out;
+	transition: 0.9s ease-in-out;
+	width: 890px;
+}
+
+.zoom-effect:hover .kotak img {
+	-webkit-transform: scale(1.08);
+	transform: scale(1.08);
+}

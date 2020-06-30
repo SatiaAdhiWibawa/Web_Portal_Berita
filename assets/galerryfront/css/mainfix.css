@@ -1,0 +1,89 @@
+.service-area {
+    padding: 90px 0 120px 0;
+    background: #fff;
+  }
+  
+  .service-area .single-service {
+    height: 400px;
+    color: #fff;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 30px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  
+  .service-area .single-service .overlay-content {
+    opacity: .8;
+    padding: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: end;
+    -moz-justify-content: end;
+    justify-content: end;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    transition-timing-function: cubic-bezier(0.39, 0.92, 0.69, 0.65);
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  
+  .service-area .single-service .overlay-content h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .service-area .single-service:hover .overlay-content {
+    transform: scaleY(1);
+  }
+
+  
+  .container.fullwidth {
+    width: 100%;
+  }
+  
+  .container.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .p1-gradient-bg, .primary-btn:after, .overlay-bg, .owl-dot.active, .service-area .single-service .overlay-content {
+    background-image: -moz-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    background-image: -ms-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+  }
+
+  .overlay-bg {
+    opacity: .9;
+  }
+  .parallux-area .overlay-bg {
+    background: #222;
+    opacity: .3;
+  }
+  .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .imgaku {
+    background-image: cover;
+  }
